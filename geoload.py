@@ -6,11 +6,10 @@ import time
 import ssl
 import sys
 
-api_key = False
+#api_key = False
 # If you have a Google Places API key, enter it here
-#api_key = 'AIzaSy___IDByT70'
-#key = 'AIzaSyDiCocWI8GOq69xsZ8c8_ye5gHbhLjzw8o'
-#api_key = key
+#key = 'your api key'
+api_key = key
 if api_key is False:
     api_key = 42
     serviceurl = "http://py4e-data.dr-chuck.net/json?"
